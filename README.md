@@ -18,7 +18,6 @@ A textura de pedra é disponibilizada através da licença [CC0], e é da autori
 ## Metadados
 
 * Autor: [Diogo Andrade]
-* Curso:  [Licenciatura em Videojogos][licvideo]
 * Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
 
 [GPLv3]:https://www.gnu.org/licenses/gpl-3.0.en.html
