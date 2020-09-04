@@ -8,18 +8,6 @@ public class Circle_Shader : TextureShader
 
     protected override Color GetColor(int x, int y)
     {
-        float dx = x - (width / 2);
-        float dy = y - (height / 2);
-        float d = Mathf.Sqrt(dx * dx + dy * dy);
-
-        if (d < radius)
-            return Color.cyan;
-
         return Color.black;
     }
-
-    /*private void Update()
-    {
-        UpdateTexture();
-    }*/
 }
