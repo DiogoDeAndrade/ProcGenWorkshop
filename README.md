@@ -2,10 +2,12 @@
 
 Este repositório contém um projecto de Unity de suporte à workshop sobre Geração Procedimental de Conteúdo, criado no contexto da "Escola de Verão: Cognição e Videojogos para a Pandemia 2020 - CVP'20". 
 
-O projecto inclui exemplos de:
+O projecto (no branch final) inclui exemplos de:
 * Uso de números pseudo-alteatórios
 * Geração procedimental de texturas
 * Geração procedimental de malhas de polígonos
+
+O branch master é o branch inicial que os alunos podem usar como base durante a workshop.
 
 ## Licenças
 
