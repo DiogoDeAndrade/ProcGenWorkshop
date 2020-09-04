@@ -9,12 +9,7 @@ public class PerlinTexture : TextureShader
 
     protected override Color GetColor(int x, int y)
     {
-        float px = frequencyX * ((float)x / width);
-        float py = frequencyY * ((float)y / height);
-
-        float r = Mathf.PerlinNoise(px, py);
-
-        return new Color(r, r, r, 1);
+        return Color.black;
     }
 
 /*    private void Update()

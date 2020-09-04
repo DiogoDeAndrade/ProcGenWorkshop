@@ -13,25 +13,6 @@ public class Checkerboard : BaseTextureGenerator
     {
         base.FillTexture(colors);
 
-        int sizeX = width / gridSize;
-        int sizeY = height / gridSize;
-
-        for (int i = 0; i < width * height; i++)
-        {
-            int x = i % width;
-            int y = i / width;
-
-            int condition = (((x / sizeX) + (y / sizeY)) % 2);
-
-            if (condition == 0)
-                colors[i] = color1;
-            else
-                colors[i] = color2;
-        }
+        
     }
-
-    /*private void Update()
-    {
-        UpdateTexture();
-    }*/
 }

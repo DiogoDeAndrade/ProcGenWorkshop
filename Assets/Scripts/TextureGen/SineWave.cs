@@ -8,11 +8,6 @@ public class SineWave : BaseTextureGenerator
     public float amplitude = 1.0f;
     public float frequency = 2.0f;
 
-    /*private void Update()
-    {
-        UpdateTexture();
-    }*/
-
     protected override void FillTexture(Color[] colors)
     {
         for (int i = 0; i < width * height; i++)
